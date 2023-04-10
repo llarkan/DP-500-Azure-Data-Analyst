@@ -59,8 +59,8 @@ In this lab, the data warehouse is hosted in a dedicated SQL pool in Azure Synap
 1. After the script has completed, in the Azure portal, go to the **dp500-*xxxxxxx*** resource group that it created, and select your Synapse workspace.
 2. In the **Overview** page for your Synapse workspace, in the **Open Synapse Studio** card, select **Open** to open Synapse Studio in a new browser tab; signing in if prompted.
 3. On the left side of Synapse Studio, use the **&rsaquo;&rsaquo;** icon to expand the menu - this reveals the different pages within Synapse Studio that are used to manage resources and perform data analytics tasks.
-4. On the **Manage** page, ensure the **SQL pools** tab is selected and then select the **sql*xxxxxxx*** dedicated SQL pool and use its **&#9655;** icon to start it; confirming that you want to resume it when prompted.
-5. Wait for the SQL pool to resume. This can take a few minutes. Use the **&#8635; Refresh** button to check its status periodically. The status will show as **Online** when it is ready.
+4. On the **Manage** page, ensure the **SQL pools** tab is displays the **sql*xxxxxxx*** dedicated SQL pool.
+5. If the **sql*xxxxxxx*** dedicated SQL pool is not running, then select it and use its **&#9655;** icon to start it, confirming that you want to resume it when prompted. Wait for the SQL pool to resume. This can take a few minutes. Use the **&#8635; Refresh** button to check its status periodically. The status will show as **Online** when it is ready.
 
 ### View the tables in the database
 
